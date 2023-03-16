@@ -1,0 +1,54 @@
+{
+    "basic parameters": {
+        
+        "data":
+        [
+            {
+                "id": 1,
+                "name":"frequency",
+                "type":"drop_down",
+                "options": [50,60]
+            },
+            {
+                "id":2,
+                "name":"voltage",
+                "type":"drop_down",
+                "options":[11,22,33,44,66]
+            },
+            {
+                "id":3,
+                "name":"current",
+                "type":"drop_down",
+                "options":[50,100,150,200,250,300,350,400,450,500]
+            },
+            {
+                "id":7,
+                "name":"Reset Time",
+                "type":"drop_down",
+                "options":["Disabled",3,35,70]
+            },
+            {
+                "id":8,
+                "name":"Enabled devices",
+                "type":"text_input",
+                "active":false,
+                "min":2,
+                "max":100
+            },
+            {
+                "id":9,
+                "name":"Wireless Communication",
+                "type":"checkbox",
+                "options":[true,false]
+            },
+            {
+                "id":10,
+                "name":"Filter Time",
+                "type":"range",
+                "min":0,
+                "max":20000
+            }
+        ]
+    }    
+ 
+}
